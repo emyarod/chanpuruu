@@ -1,7 +1,286 @@
-@import 'utils/flair';
+@charset "UTF-8";
+.flairselector .customizer {
+  display: none !important;
+}
+
+.flair {
+  border: none !important;
+  padding: 0px;
+  background: url(%%flairs%%) no-repeat -9999px -9999px;
+  display: inline-block;
+  vertical-align: -21px;
+}
+
+.flair-text {
+  vertical-align: 0px;
+}
+
+.flair-hydeoutlogo {
+  background-position: 0 0;
+  width: 28px;
+  height: 45px;
+}
+
+.flair-tribe {
+  background-position: -28px 0;
+  width: 28px;
+  height: 45px;
+}
+
+.flair-champloosunset {
+  background-position: -56px 0;
+  width: 80px;
+  height: 45px;
+}
+
+.flair-champlooswords {
+  background-position: -136px 0;
+  width: 122px;
+  height: 45px;
+}
+
+.flair-champloovinyl {
+  background-position: -258px 0;
+  width: 80px;
+  height: 45px;
+}
+
+.flair-champloologo {
+  background-position: -338px 0;
+  width: 83px;
+  height: 45px;
+}
+
+.flair-nujabescartoon {
+  background-position: -421px 0;
+  width: 51px;
+  height: 45px;
+}
+
+.flair-champloologo2 {
+  background-position: -472px 0;
+  width: 72px;
+  height: 45px;
+}
+
+.flair-apani {
+  background-position: -544px 0;
+  width: 71px;
+  height: 45px;
+}
+
+.flair-apani2 {
+  background-position: -615px 0;
+  width: 123px;
+  height: 45px;
+}
+
+.flair-cyneblock {
+  background-position: -738px 0;
+  width: 45px;
+  height: 45px;
+}
+
+.flair-cynetext {
+  background-position: -783px 0;
+  width: 80px;
+  height: 45px;
+}
+
+.flair-cynebar {
+  background-position: -863px 0;
+  width: 134px;
+  height: 45px;
+}
+
+.flair-cyneelephantbar {
+  background-position: -997px 0;
+  width: 158px;
+  height: 45px;
+}
+
+.flair-cyneelephant {
+  background-position: -1155px 0;
+  width: 45px;
+  height: 45px;
+}
+
+.flair-champlootrio {
+  background-position: -1200px 0;
+  width: 104px;
+  height: 45px;
+}
+
+.flair-uyama {
+  background-position: -1304px 0;
+  width: 115px;
+  height: 45px;
+}
+
+.flair-shing02 {
+  background-position: -1419px 0;
+  width: 135px;
+  height: 45px;
+}
+
+.flair-wakyoku {
+  background-position: -1554px 0;
+  width: 45px;
+  height: 45px;
+}
+
+.flair-maschine {
+  background-position: -1599px 0;
+  width: 50px;
+  height: 45px;
+}
+
+.flair-poweredbymaschine {
+  background-position: -1649px 0;
+  width: 260px;
+  height: 45px;
+}
+
+.flair-maschinelogo {
+  background-position: -1909px 0;
+  width: 308px;
+  height: 45px;
+}
+
+.flair-mpc3k {
+  background-position: -2217px 0;
+  width: 64px;
+  height: 45px;
+}
+
+.flair-akaithrowback {
+  background-position: -2281px 0;
+  width: 101px;
+  height: 45px;
+}
+
+.flair-akailogo {
+  background-position: -2382px 0;
+  width: 119px;
+  height: 45px;
+}
+
+.flair-mpclogo {
+  background-position: -2501px 0;
+  width: 165px;
+  height: 45px;
+}
+
+.flair-peterock {
+  background-position: -2666px 0;
+  width: 37px;
+  height: 45px;
+}
+
+.flair-toohardtobeat {
+  background-position: -2703px 0;
+  width: 71px;
+  height: 45px;
+}
+
+.flair-mpc2000 {
+  background-position: -2774px 0;
+  width: 58px;
+  height: 45px;
+}
+
+.flair-washingtonclassics {
+  background-position: -2832px 0;
+  width: 233px;
+  height: 45px;
+}
+
+.flair-funkydlgraf {
+  background-position: -3065px 0;
+  width: 46px;
+  height: 45px;
+}
+
+.flair-funkydljazzy {
+  background-position: -3111px 0;
+  width: 243px;
+  height: 45px;
+}
+
+.flair-maschineicon {
+  background-position: -3354px 0;
+  width: 45px;
+  height: 45px;
+}
+
+/*Aligator_Pacino Flair*/
+.flair-pacino {
+  background: url(%%chillin%%);
+  height: 75px;
+  width: 75px;
+  vertical-align: bottom;
+  padding: 0;
+  border: 0;
+}
+
+.flair-modman2 {
+  background: url(%%Fr9C3nF%%);
+  height: 100px;
+  width: 100px;
+  vertical-align: -45px;
+  padding: 0;
+  border: 0;
+}
+
+/*Funky DL flair*/
+a.author[href*="funkydlhiphop"]:before {
+  content: url(%%funkydlcertified%%);
+  vertical-align: -30px !important;
+}
+
+a.author[href*="funkydlhiphop"]:hover:after {
+  content: "www.funkydl.com";
+  font-size: 10px !important;
+  font-weight: bold;
+  color: #c35253;
+  background: lightgray;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/*Bop Alloy flair*/
+a.author[href*="BopAlloyOfficial"]:before {
+  content: url(%%bopalloyflair%%);
+  vertical-align: -27px !important;
+}
+
+a.author[href*="BopAlloyOfficial"]:hover:after {
+  content: "www.bopalloy.com";
+  font-size: 10px !important;
+  font-weight: bold;
+  color: #c35253;
+  background: lightgray;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/*Nitsua Flair */
+a.author[href*="nitsua_"]:before {
+  content: url(%%nitsua%%);
+  vertical-align: -50px !important;
+}
+
+a.author[href*="nitsua_"]:hover:after {
+  content: "www.visioneternal.net";
+  font-size: 10px !important;
+  font-weight: bold;
+  color: #c35253;
+  background: lightgray;
+  display: inline-block;
+  margin-left: 5px;
+}
 
 /* Album Covers and links to wiki ==========================================================================*/
-
 body.listing-page .titlebox a[href*="http://www.reddit.com/r/Nujabes/wiki/index#wiki_hydeout_productions_1st_collection_-_.282003.29"] {
   top: 474px;
 }
@@ -110,12 +389,140 @@ body.listing-page .titlebox a[href*="http://www.reddit.com/r/Nujabes/wiki/index#
   color: #000;
 }
 
+#sr-bar .separator {
+  color: #ffbb33;
+}
 
-@import 'modules/header';
+#sr-bar a {
+  color: #aaa;
+}
 
+#sr-header-area {
+  height: 20px;
+  background-color: #000;
+  -webkit-box-shadow: 0 0 1px #868686;
+  white-space: nowrap;
+  text-transform: none !important;
+  border-bottom: 0px solid !important;
+  font-weight: 500;
+  font-size: 100%;
+  font-family: Helvetica, arial, verdana, sans-serif;
+  z-index: 99;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  line-height: 20px;
+  visibility: hidden;
+}
+
+#sr-header-area .selected a {
+  color: #c35253;
+}
+
+#sr-more-link {
+  color: black;
+  background-color: #DDDDDD;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding: 0 5px 0 15px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.dropdown.srdrop .selected {
+  color: white !important;
+}
+
+#sr-header-area:hover {
+  visibility: visible;
+  opacity: 1;
+}
+
+#sr-header-area:after {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  content: "▼";
+  color: #000;
+  font-size: 12px;
+  visibility: visible !important;
+  text-align: center;
+}
+
+#sr-header-area:hover:after {
+  z-index: -1;
+}
+
+#sr-header-area a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#sr-more-link {
+  position: absolute;
+  background-color: #2d2d2d;
+  color: #bcbcbc;
+}
+
+.dropdown.srdrop .selected {
+  color: #bcbcbc;
+}
+
+#sr-header-area .drop-choices.srdrop {
+  margin-left: 0;
+}
+
+#sr-header-area .drop-choices {
+  top: 21px !important;
+  z-index: 100;
+  padding: 15px;
+  background-color: #fff;
+  border: 0 solid;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 3px 5px -3px #a8a8a8;
+  box-shadow: 0 3px 5px -3px #a8a8a8;
+  color: #3b3b3b;
+  text-align: left;
+  font-weight: lighter;
+  font-size: 11px;
+  opacity: 0.9;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.drop-choices {
+  z-index: 100;
+  padding: 15px;
+  background-color: #fff;
+  border: 0 solid;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 3px 5px -3px #a8a8a8;
+  box-shadow: 0 3px 5px -3px #a8a8a8;
+  color: #3b3b3b;
+  text-align: left;
+  font-weight: lighter;
+  font-size: 11px;
+  opacity: 0.9;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.drop-choices a {
+  color: #3b3b3b;
+}
+
+.drop-choices a.choice:hover {
+  background-color: #fff;
+  color: #427FED !important;
+}
+
+#userbarToggle {
+  color: #333 !important;
+  background-color: transparent !important;
+  border-right: 0px !important;
+}
 
 /* Banner==============================================================================*/
-
 #header {
   background: url(%%NUJheader%%);
   height: 190px;
@@ -170,27 +577,25 @@ body.listing-page .pagename a:hover {
   left: 40px;
 }
 
-
 /*Scoreboard============================================================================*/
-
 body.listing-page #header-bottom-right {
   padding: 7px 19px 0px 0px;
   z-index: 999;
   position: absolute;
-  top: 607px!important;
-  right: 40px!important;
+  top: 607px !important;
+  right: 40px !important;
   background: none;
-  height: 22px!important;
+  height: 22px !important;
 }
 
 #header-bottom-right {
   padding: 7px 19px 0px 0px;
   z-index: 999;
   position: absolute;
-  top: 197px!important;
-  right: 40px!important;
+  top: 197px !important;
+  right: 40px !important;
   background: none;
-  height: 22px!important;
+  height: 22px !important;
 }
 
 #header-bottom-right a {
@@ -201,9 +606,7 @@ body.listing-page #header-bottom-right {
   color: #c35253;
 }
 
-
 /* Tabs =================================================================================*/
-
 body.listing-page #header-bottom-left .tabmenu {
   height: 30px;
   line-height: 30px;
@@ -237,9 +640,7 @@ body.listing-page #header-bottom-left .tabmenu {
   border: none;
 }
 
-
 /* Content===============================================================================*/
-
 html {
   position: relative;
   background: url(%%NUJbackground%%) no-repeat fixed;
@@ -253,28 +654,24 @@ html {
   display: none !important;
 }
 
-
 /* large headline text============================*/
-
 .usertext-body h4 {
   text-shadow: 1px 1px 3px #c35253;
 }
 
 div.titlebox span.word {
-  display: none
+  display: none;
 }
 
 div.titlebox span.number:after {
-  content: ""
+  content: "";
 }
 
 a[href*="/r/kpop"].title:link {
-  color: #293578
+  color: #293578;
 }
 
-
 /* RULES ======================================*/
-
 .md ul {
   background-color: transparent;
   padding-top: 0px;
@@ -284,11 +681,11 @@ a[href*="/r/kpop"].title:link {
   margin: 0px;
   font-size: 95%;
   font-family: Helvetica, "Lucida Grande", "Lucida Sans Unicode", arial, verdana, sans-serif;
-  color: black
+  color: black;
 }
 
 .md ul {
-  padding-right: 5px
+  padding-right: 5px;
 }
 
 .titlebox .md pre {
@@ -298,9 +695,7 @@ a[href*="/r/kpop"].title:link {
   text-transform: capitalize;
 }
 
-
 /* Custom Up and Down arrows ======================*/
-
 .arrow {
   height: 15px;
   width: 15px;
@@ -316,20 +711,16 @@ a[href*="/r/kpop"].title:link {
   background-position: 15px 0px;
 }
 
-
 /*hides the downvote arrow==============================*/
-
 .arrow.down {
   visibility: hidden;
-  display: block
+  display: block;
 }
 
-
 /*displays downvote arrow for comments only, after disabling==============================*/
-
 .comment .arrow.down {
   visibility: visible;
-  display: block
+  display: block;
 }
 
 .link .score {
@@ -349,23 +740,21 @@ a[href*="/r/kpop"].title:link {
   top: 171px;
 }
 
-
 /* Highlight Original Poster=======================*/
-
 .author.submitter {
   padding: 2px;
 }
 
 .noncollapsed .author.submitter {
-  background-color: #E6F4E3
+  background-color: #E6F4E3;
 }
 
 .collapsed .author.submitter {
-  color: #c35253
+  color: #c35253;
 }
 
 a.title:before {
-  padding-right: 5px
+  padding-right: 5px;
 }
 
 .tagline .author.submitter {
@@ -373,9 +762,7 @@ a.title:before {
   color: #ffffff !important;
 }
 
-
 /*==Styling of Moderator Distinguish==*/
-
 .res .author.moderator {
   color: #fff !important;
   background-color: #99cc00 !important;
@@ -385,9 +772,7 @@ a.title:before {
   color: #99cc00;
 }
 
-
 /*zebra-stripes and padding=======================*/
-
 .sitetable .rank {
   margin-top: 0px !important;
   padding: 3px 5px 0px;
@@ -397,12 +782,12 @@ a.title:before {
 }
 
 .sitetable .score {
-  padding: 1px 0px 0px 0px!important;
+  padding: 1px 0px 0px 0px !important;
 }
 
 .sitetable {
   list-style-type: none;
-  padding-left: 5px!important;
+  padding-left: 5px !important;
 }
 
 .sitetable .compressed .rank {
@@ -411,7 +796,7 @@ a.title:before {
 
 .link .usertext .md {
   border: 0px;
-  border-color: lightgray!important;
+  border-color: lightgray !important;
   border-radius: 0;
   background-color: transparent;
 }
@@ -423,23 +808,19 @@ a.title:before {
 }
 
 .linklisting .entry {
-  margin-bottom: 5px!important;
-  margin-top: 5px!important;
+  margin-bottom: 5px !important;
+  margin-top: 5px !important;
 }
 
-
 /* Username/Password fields */
-
 .login-form-side input[type=text],
 .login-form-side input[type=password] {
-  border-color: lightgray!important;
+  border-color: lightgray !important;
   background: #fff !important;
   width: 143px;
 }
 
-
 /* login error shit */
-
 .login-form-side .error {
   color: red;
   font-size: x-small;
@@ -457,9 +838,7 @@ a.recover-password.attention {
   border: none;
 }
 
-
 /* Downvote tooltip==============================*/
-
 .arrow.down:hover:before {
   position: absolute;
   background-color: #000;
@@ -483,9 +862,7 @@ a.recover-password.attention {
   margin-top: 5px;
 }
 
-
 /* Sidebar================================================================================*/
-
 .titlebox .bottom {
   display: none;
 }
@@ -493,7 +870,7 @@ a.recover-password.attention {
 div.titlebox span.number {
   font-weight: bold;
   font-size: 36px;
-  color: #555
+  color: #555;
 }
 
 div.titlebox span.word {
@@ -521,9 +898,7 @@ div.titlebox span.number:after {
   cursor: help;
 }
 
-
 /* clickable sidebar image */
-
 .side h1.redditname a {
   height: 213px;
   display: block;
@@ -532,9 +907,7 @@ div.titlebox span.number:after {
   text-indent: -9999px;
 }
 
-
 /*change the colors of the links in the sidebar*/
-
 .side a {
   color: #063C6D;
 }
@@ -543,9 +916,7 @@ div.titlebox span.number:after {
   color: #c35253;
 }
 
-
 /* Login button */
-
 .login-form-side .submit .btn {
   letter-spacing: 1px;
   background: #aaa;
@@ -560,9 +931,7 @@ div.titlebox span.number:after {
   color: #c35253;
 }
 
-
 /* title style for logged-in users===================*/
-
 .thing .title.loggedin {
   color: #c35253;
 }
@@ -588,9 +957,7 @@ div.titlebox span.number:after {
   color: #063C6D;
 }
 
-
 /* title style for frontpage and self posts=============*/
-
 .comment .author {
   /*color: green*/
 }
@@ -598,7 +965,7 @@ div.titlebox span.number:after {
 .thing .title {
   color: #c35253;
   padding: 0px;
-  overflow: hidden
+  overflow: hidden;
 }
 
 .thing .title:visited {
@@ -625,16 +992,14 @@ div.titlebox span.number:after {
   background-color: salmon !important;
 }
 
-
 /* Search ===================================*/
-
 .side form#search input[name="q"] {
   line-height: 25px;
   font-family: Helvetica, "Lucida Grande", "Lucida Sans Unicode", verdana, sans-serif;
   font-size: 14px;
   font-weight: bold;
   padding: 6px 0px 6px 4px;
-  text-align: center
+  text-align: center;
 }
 
 #searchexpando {
@@ -656,7 +1021,6 @@ div.titlebox span.number:after {
   margin: 6px 15px 0 0;
 }
 
-
 /*#search input[type="submit"] {
     background: #aaa;
     border: 1px solid #d6d6d6;
@@ -669,10 +1033,7 @@ div.titlebox span.number:after {
     background: white !important;
     color: #c35253;
     }*/
-
-
 /*Submit===================================*/
-
 .side {
   float: right;
   background-color: white;
@@ -710,9 +1071,7 @@ div.titlebox span.number:after {
   display: none;
 }
 
-
 /*linkinfo========================================*/
-
 .linkinfo .upvotes {
   font-size: 80%;
   color: #c35253;
@@ -749,7 +1108,7 @@ div.titlebox span.number:after {
 
 .link .usertext .md {
   padding: 0px 5px;
-  background-color: rgb(250, 250, 250);
+  background-color: #fafafa;
   border: 1px solid #555;
 }
 
@@ -761,7 +1120,7 @@ div.titlebox span.number:after {
 }
 
 .side .sidebox.create {
-  display: none
+  display: none;
 }
 
 .titlebox form.toggle,
@@ -778,7 +1137,7 @@ div.titlebox span.number:after {
 }
 
 #moresearchinfo {
-  border: none !important
+  border: none !important;
 }
 
 div.titlebox {
@@ -789,10 +1148,10 @@ div.titlebox {
 }
 
 .sidecontentbox h1 {
-  display: block!important;
+  display: block !important;
   font-weight: bold;
   font-size: 11px !important;
-  text-transform: lowercase!important;
+  text-transform: lowercase !important;
   font-family: Helvetica, "Lucida Grande", "Lucida Sans Unicode", arial, verdana, sans-serif;
   padding: 2px 5px;
   border: 1px solid #d3d3d3;
@@ -815,12 +1174,8 @@ div.titlebox {
   display: none;
 }
 
-
 /*========================================*/
-
-
 /* Infobar */
-
 .submit-page .formtabs-content .infobar {
   padding: 10px;
   margin-bottom: 10px;
@@ -830,9 +1185,7 @@ div.titlebox {
   color: lightgray;
 }
 
-
 /* Field containers */
-
 .submit-page .formtabs-content .roundfield {
   background: #d6d6d6;
   border-radius: 0;
@@ -842,25 +1195,21 @@ div.titlebox {
   padding-top: 10px;
 }
 
-
 /* Field titles */
-
 .submit-page .formtabs-content .roundfield .title {
   font-family: sans-serif;
   font-size: 16px;
   font-weight: bold;
 }
 
-
 /* Submit page ======================*/
-
-.submit-page> .content> form+ h1 {
+.submit-page > .content > form + h1 {
   margin: 6px;
   font-size: 16px;
   font-weight: bold;
 }
 
-.submit-page> .content> form+ h1 a {
+.submit-page > .content > form + h1 a {
   color: #c35253;
 }
 
@@ -868,7 +1217,7 @@ div.titlebox {
   border-top: 4px solid #c35253;
 }
 
-.submit-page> .content ul.tabmenu.formtab li a {
+.submit-page > .content ul.tabmenu.formtab li a {
   height: 15px;
   padding: 2px 10px 2px 10px;
   display: inline-block;
@@ -878,24 +1227,20 @@ div.titlebox {
   color: #fff;
 }
 
-.submit-page> .content ul.tabmenu.formtab li.selected a {
+.submit-page > .content ul.tabmenu.formtab li.selected a {
   background: #c35253;
   font-weight: bold;
   letter-spacing: 1px;
   color: #fff;
 }
 
-
 /* Removes suggested subs and gold box */
-
 .submit-page .formtabs-content .roundfield#reddit-field,
 .submit-page .gold-accent {
   display: none;
 }
 
-
 /* Field input area */
-
 .submit-page .formtabs-content .roundfield textarea,
 .submit-page .formtabs-content .roundfield input {
   border-color: #fff;
@@ -903,18 +1248,16 @@ div.titlebox {
   color: #000;
 }
 
-
 /* on-focus tooltip for textareas on submission page */
-
 .roundfield {
   position: relative;
 }
 
-#title-field textarea:focus~ .NO_TEXT:empty {
-  display: inline!important;
+#title-field textarea:focus ~ .NO_TEXT:empty {
+  display: inline !important;
 }
 
-#title-field textarea:focus~ .NO_TEXT:empty::after {
+#title-field textarea:focus ~ .NO_TEXT:empty::after {
   content: "Please provide sufficient context in your title!";
   position: absolute;
   left: 10px;
@@ -930,7 +1273,7 @@ div.titlebox {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-#title-field textarea:focus~ .NO_TEXT:empty::before {
+#title-field textarea:focus ~ .NO_TEXT:empty::before {
   position: absolute;
   display: block;
   height: 0;
@@ -945,9 +1288,7 @@ div.titlebox {
   left: 30px;
 }
 
-
 /* Bottom rule notice */
-
 .submit-page .content.submit .info-notice {
   width: 501px;
   padding-left: 10px;
@@ -964,9 +1305,7 @@ div.titlebox {
   color: #fff;
 }
 
-
 /* Submit button */
-
 .submit-page .btn[name="submit"] {
   background: #aaa;
   border: 1px solid #d6d6d6;
@@ -982,9 +1321,7 @@ div.titlebox {
   color: #c35253;
 }
 
-
 /* Suggest title button */
-
 .submit-page #suggest-title button {
   width: 100px;
   height: 25px;
@@ -1001,9 +1338,7 @@ div.titlebox {
   color: #c35253;
 }
 
-
 /*Hides Subreddit Founder*/
-
 .titlebox .bottom {
   font-size: 0px;
   color: #FFF;
@@ -1024,11 +1359,9 @@ div.titlebox {
   display: none;
 }
 
-
 /*RES fixes, aesthetics, etc.=====================================================================*/
-
-#RESShortcuts.sr-bar> .RESShortcutsCurrentSub:visited {
-  color: #c35253!important;
+#RESShortcuts.sr-bar > .RESShortcutsCurrentSub:visited {
+  color: #c35253 !important;
   font-weight: bold;
 }
 
@@ -1036,7 +1369,7 @@ div.titlebox {
   color: white;
 }
 
-.sr-bar> .separator {
+.sr-bar > .separator {
   color: white;
 }
 
@@ -1050,29 +1383,25 @@ div.titlebox {
 #RESShortcutsLeft,
 #RESShortcutsRight,
 #RESShortcutsTrash {
-  background-color: transparent!important;
-  color: white!important;
+  background-color: transparent !important;
+  color: white !important;
 }
 
 #RESConsole {
-  z-index: 10000!important;
+  z-index: 10000 !important;
 }
 
-
 /* Comment element highlighting */
-
 .res .commentarea .RES-keyNav-activeElement .md,
 .res .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
-  background-color: #F0F0F0!important;
+  background-color: #F0F0F0 !important;
 }
 
 .res-nightmode #header #header-bottom-left {
   background: transparent !important;
 }
 
-
 /* Usertext form */
-
 .res #REScommentNavToggle span:first-of-type {
   margin-left: 0;
 }
@@ -1096,41 +1425,33 @@ div.titlebox {
   font-size: 12px;
 }
 
-
 /*sticky posts==========================*/
-
 .stickied {
   border: 1px dotted;
-  border-color: #c35253!important;
-  margin-bottom: 10px!important;
+  border-color: #c35253 !important;
+  margin-bottom: 10px !important;
 }
 
 .stickied .title {
-  color: #c35253!important;
+  color: #c35253 !important;
 }
 
 .stickied-tagline {
   color: #ff8800 !important;
 }
 
-
 /*banner image*/
-
 div.content {
   /*This lowers the links to create space*/
   margin-top: 115px;
 }
 
-
 /*Hack to enable repositioning of child elements*/
-
 .titlebox form {
   position: static;
 }
 
-
 /*this code positions the sticky*/
-
 .side h3:nth-of-type(1) {
   position: absolute;
   top: 220px;
@@ -1152,9 +1473,7 @@ body.listing-page .side h3:nth-of-type(1) {
   background: url(%%NUJbanner%%) no-repeat left center;
 }
 
-
 /* global settings======================*/
-
 body {
   font-weight: normal;
   margin: 40px 40px 0;
@@ -1172,7 +1491,7 @@ body.listing-page {
 }
 
 .side .content:before {
-  content: " " !important
+  content: " " !important;
 }
 
 body:not(.subscriber) .down {
@@ -1207,21 +1526,17 @@ h3 {
   font-family: Helvetica, "Lucida Grande", "Lucida Sans Unicode", arial, verdana, sans-serif;
 }
 
-
 /*Spoiler tag within comments. Your comment should be: "[This is a spoiler sentence.](/spoiler)"*/
-
 a[href$="/spoiler"] {
-  background: #c35253!important;
-  color: #c35253!important
+  background: #c35253 !important;
+  color: #c35253 !important;
 }
 
 a[href$="/spoiler"]:hover {
-  color: #fff!important
+  color: #fff !important;
 }
 
-
 /*furigana*/
-
 a[href$="/fg"],
 a[href$="#fg"] {
   cursor: default !important;
@@ -1243,9 +1558,7 @@ a[href$="#fg"]:before {
   content: attr(title);
 }
 
-
 /* Save/cancel buttons */
-
 .usertext-buttons button.save,
 .usertext-buttons button.save:hover,
 .usertext-buttons button.cancel,
@@ -1262,7 +1575,7 @@ a[href$="#fg"]:before {
 
 .usertext-buttons button.save:hover {
   background: white !important;
-  color: #c35253!important;
+  color: #c35253 !important;
 }
 
 .usertext-buttons button.cancel {
@@ -1274,7 +1587,7 @@ a[href$="#fg"]:before {
 
 .usertext-buttons button.cancel:hover {
   background: white !important;
-  color: #c35253!important;
+  color: #c35253 !important;
 }
 
 .usertext-buttons .status {
@@ -1284,12 +1597,10 @@ a[href$="#fg"]:before {
   color: #777;
 }
 
-
 /* Sidebar Links==============================*/
-
 .titlebox a {
   font-weight: bold;
-  font-size: 10px
+  font-size: 10px;
 }
 
 .titlebox a[href*="http://radd.it/r/nujabes"],
@@ -1315,13 +1626,11 @@ a[href$="#fg"]:before {
   border-color: #757575;
   border-width: 1px;
   margin-bottom: 3px;
-  border-radius: 0px
+  border-radius: 0px;
 }
 
-
 /* Permalink infobar */
-
-.commentarea .menuarea+ form+ .infobar {
+.commentarea .menuarea + form + .infobar {
   padding: 7px 10px;
   margin: 10px 310px 10px 15px;
   background-color: #ffd580;
@@ -1330,9 +1639,7 @@ a[href$="#fg"]:before {
   color: #555;
 }
 
-
 /* Permalink comment */
-
 .comment .usertext.border .usertext-body {
   background-color: #ffd580;
 }
@@ -1341,14 +1648,12 @@ a[href$="#fg"]:before {
   margin-right: 0;
 }
 
-
 /*front page edit share delete hide hover color shit thanks /u/ItsPrisonTime====*/
-
-.entry:hover> .flat-list.buttons> li a:not(.comments),
-.entry:hover> .flat-list.buttons> li .redditSingleClick,
-.entry:focus> .flat-list.buttons> li a:not(.comments),
-.entry:focus> .flat-list.buttons> li .redditSingleClick,
-.entry:focus> .flat-list.buttons> li a.comments {
+.entry:hover > .flat-list.buttons > li a:not(.comments),
+.entry:hover > .flat-list.buttons > li .redditSingleClick,
+.entry:focus > .flat-list.buttons > li a:not(.comments),
+.entry:focus > .flat-list.buttons > li .redditSingleClick,
+.entry:focus > .flat-list.buttons > li a.comments {
   color: #333;
 }
 
@@ -1358,15 +1663,13 @@ li .redditSingleClick {
   color: #777;
 }
 
-.flat-list.buttons> li a.comments,
-.flat-list.buttons> a.comments.click,
-.flat-list.buttons> a.comments:visited {
+.flat-list.buttons > li a.comments,
+.flat-list.buttons > a.comments.click,
+.flat-list.buttons > a.comments:visited {
   color: #777;
 }
 
-
 /* Footer */
-
 .footer {
   color: gray;
   padding: 5px;
@@ -1416,7 +1719,7 @@ a {
 }
 
 .buygold {
-  color: rgb(154, 125, 46) !important;
+  color: #9a7d2e !important;
 }
 
 .bottommenu {

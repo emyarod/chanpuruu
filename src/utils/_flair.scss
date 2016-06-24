@@ -1,0 +1,288 @@
+.flairselector .customizer {
+  display: none !important;
+}
+
+.flair {
+  border: none !important;
+  padding: 0px;
+  background: url(%%flairs%%) no-repeat -9999px -9999px;
+  display: inline-block;
+  vertical-align: -21px;
+}
+
+.flair-text {
+  vertical-align: 0px;
+}
+
+.flair-hydeoutlogo {
+  background-position: 0 0;
+  width: 28px;
+  height: 45px;
+}
+
+.flair-tribe {
+  background-position: -28px 0;
+  width: 28px;
+  height: 45px;
+}
+
+.flair-champloosunset {
+  background-position: -56px 0;
+  width: 80px;
+  height: 45px;
+}
+
+.flair-champlooswords {
+  background-position: -136px 0;
+  width: 122px;
+  height: 45px;
+}
+
+.flair-champloovinyl {
+  background-position: -258px 0;
+  width: 80px;
+  height: 45px;
+}
+
+.flair-champloologo {
+  background-position: -338px 0;
+  width: 83px;
+  height: 45px;
+}
+
+.flair-nujabescartoon {
+  background-position: -421px 0;
+  width: 51px;
+  height: 45px;
+}
+
+.flair-champloologo2 {
+  background-position: -472px 0;
+  width: 72px;
+  height: 45px;
+}
+
+.flair-apani {
+  background-position: -544px 0;
+  width: 71px;
+  height: 45px;
+}
+
+.flair-apani2 {
+  background-position: -615px 0;
+  width: 123px;
+  height: 45px;
+}
+
+.flair-cyneblock {
+  background-position: -738px 0;
+  width: 45px;
+  height: 45px;
+}
+
+.flair-cynetext {
+  background-position: -783px 0;
+  width: 80px;
+  height: 45px;
+}
+
+.flair-cynebar {
+  background-position: -863px 0;
+  width: 134px;
+  height: 45px;
+}
+
+.flair-cyneelephantbar {
+  background-position: -997px 0;
+  width: 158px;
+  height: 45px;
+}
+
+.flair-cyneelephant {
+  background-position: -1155px 0;
+  width: 45px;
+  height: 45px;
+}
+
+.flair-champlootrio {
+  background-position: -1200px 0;
+  width: 104px;
+  height: 45px;
+}
+
+.flair-uyama {
+  background-position: -1304px 0;
+  width: 115px;
+  height: 45px;
+}
+
+.flair-shing02 {
+  background-position: -1419px 0;
+  width: 135px;
+  height: 45px;
+}
+
+.flair-wakyoku {
+  background-position: -1554px 0;
+  width: 45px;
+  height: 45px;
+}
+
+.flair-maschine {
+  background-position: -1599px 0;
+  width: 50px;
+  height: 45px;
+}
+
+.flair-poweredbymaschine {
+  background-position: -1649px 0;
+  width: 260px;
+  height: 45px;
+}
+
+.flair-maschinelogo {
+  background-position: -1909px 0;
+  width: 308px;
+  height: 45px;
+}
+
+.flair-mpc3k {
+  background-position: -2217px 0;
+  width: 64px;
+  height: 45px;
+}
+
+.flair-akaithrowback {
+  background-position: -2281px 0;
+  width: 101px;
+  height: 45px;
+}
+
+.flair-akailogo {
+  background-position: -2382px 0;
+  width: 119px;
+  height: 45px;
+}
+
+.flair-mpclogo {
+  background-position: -2501px 0;
+  width: 165px;
+  height: 45px;
+}
+
+.flair-peterock {
+  background-position: -2666px 0;
+  width: 37px;
+  height: 45px;
+}
+
+.flair-toohardtobeat {
+  background-position: -2703px 0;
+  width: 71px;
+  height: 45px;
+}
+
+.flair-mpc2000 {
+  background-position: -2774px 0;
+  width: 58px;
+  height: 45px;
+}
+
+.flair-washingtonclassics {
+  background-position: -2832px 0;
+  width: 233px;
+  height: 45px;
+}
+
+.flair-funkydlgraf {
+  background-position: -3065px 0;
+  width: 46px;
+  height: 45px;
+}
+
+.flair-funkydljazzy {
+  background-position: -3111px 0;
+  width: 243px;
+  height: 45px;
+}
+
+.flair-maschineicon {
+  background-position: -3354px 0;
+  width: 45px;
+  height: 45px;
+}
+
+
+/*Aligator_Pacino Flair*/
+
+.flair-pacino {
+  background: url(%%chillin%%);
+  height: 75px;
+  width: 75px;
+  vertical-align: bottom;
+  padding: 0;
+  border: 0;
+}
+
+.flair-modman2 {
+  background: url(%%Fr9C3nF%%);
+  height: 100px;
+  width: 100px;
+  vertical-align: -45px;
+  padding: 0;
+  border: 0;
+}
+
+
+/*Funky DL flair*/
+
+a.author[href*="funkydlhiphop"]:before {
+  content: url(%%funkydlcertified%%);
+  vertical-align: -30px!important;
+}
+
+a.author[href*="funkydlhiphop"]:hover:after {
+  content: "www.funkydl.com";
+  font-size: 10px !important;
+  font-weight: bold;
+  color: #c35253;
+  background: lightgray;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+
+/*Bop Alloy flair*/
+
+a.author[href*="BopAlloyOfficial"]:before {
+  content: url(%%bopalloyflair%%);
+  vertical-align: -27px!important;
+}
+
+a.author[href*="BopAlloyOfficial"]:hover:after {
+  content: "www.bopalloy.com";
+  font-size: 10px !important;
+  font-weight: bold;
+  color: #c35253;
+  background: lightgray;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+
+/*Nitsua Flair */
+
+a.author[href*="nitsua_"]:before {
+  content: url(%%nitsua%%);
+  vertical-align: -50px!important;
+}
+
+a.author[href*="nitsua_"]:hover:after {
+  content: "www.visioneternal.net";
+  font-size: 10px !important;
+  font-weight: bold;
+  color: #c35253;
+  background: lightgray;
+  display: inline-block;
+  margin-left: 5px;
+}
