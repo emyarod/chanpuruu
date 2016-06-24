@@ -1,0 +1,30 @@
+{
+  "name": "chanpuruu",
+  "version": "1.0.0",
+  "description": "reddit stylesheet theme",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emyarod/chanpuruu.git"
+  },
+  "keywords": [
+    "reddit",
+    "stylesheet"
+  ],
+  "author": "emyarod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emyarod/chanpuruu/issues"
+  },
+  "homepage": "https://github.com/emyarod/chanpuruu#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2"
+  }
+}
